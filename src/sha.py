@@ -10,6 +10,12 @@ def calculate_sha256(input_string):
     Returns:
         str: SHA-256 hash of the input string.
     """
+    # Vérification si la chaîne est vide
+    if not input_string:
+        input_string = ' '  # Ajout d'un espace pour éviter une chaîne vide
+    
     sha256_hash = hashlib.sha256(input_string.encode()).hexdigest()
     return sha256_hash
+
+
 
