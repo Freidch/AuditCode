@@ -1,6 +1,6 @@
 import unittest
 
-from sha import calculate_sha256  # Importez la fonction à tester depuis votre module
+from src.sha import calculate_sha256  # Importez la fonction à tester depuis votre module
 
 class TestCalculateSHA256(unittest.TestCase):
     def test_empty_string(self):
