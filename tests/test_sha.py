@@ -1,5 +1,5 @@
 import unittest
-from sha import generatesha256hash
+from src.sha import generatesha256hash
 
 class TestHashUtils(unittest.TestCase):
 
